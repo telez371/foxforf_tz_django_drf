@@ -1,4 +1,5 @@
 from rest_framework import viewsets, permissions
+from rest_framework.pagination import PageNumberPagination
 from course.serializers import *
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -6,11 +7,18 @@ from decimal import Decimal
 from django.utils import timezone
 
 
+
+class StudentlistPagination(PageNumberPagination):
+    page_size = 5
+    page_size_query_param = 'page_size'
+    max_page_size = 10000
+
+
 class StudentProfileViewSet(viewsets.ModelViewSet):
     queryset = Student.objects.all()
     serializer_class = StudentProfileSerializer
     permission_classes = [permissions.IsAuthenticated]
-
+    pagination_class = PageNumberPagination
 
 class TeacherProfileViewSet(viewsets.ModelViewSet):
     queryset = Teacher.objects.all()
