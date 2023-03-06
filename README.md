@@ -43,6 +43,10 @@ Example Request swagger documentation.
 <span class="key">http://127.0.0.1:8000/swagger/</span>
 </pre>
 
+<p align="left">
+     <a href="https://ibb.co/DpNVv3T"><img src="https://i.ibb.co/hfk74pw/K73ySNnJ.jpg" alt="K73ySNnJ" border="0"></a>
+</p>
+
 
 ## Дополнительные параметры
 
