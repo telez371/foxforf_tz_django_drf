@@ -43,3 +43,23 @@ Example Request swagger documentation.
 <span class="key">http://127.0.0.1:8000/swagger/</span>
 </pre>
 
+
+## Дополнительные параметры
+
+  Для каждого учителя есть поле выбора курсов, которые он ведет
+
+  Регистрацию учеников
+  
+  Выбор курса для вебинара
+  
+  Время начала вебинара
+  
+  Выбор языка вебинара
+  
+  Добавление учеников к вебинару
+
+
+<p align="left">
+     <a href="https://ibb.co/mNBwhmv"><img src="https://i.ibb.co/DrbywNG/hhOAXIBP.jpg" alt="hhOAXIBP" border="0"></a>
+</p>
+
