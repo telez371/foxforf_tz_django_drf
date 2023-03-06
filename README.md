@@ -40,6 +40,6 @@ Framework на выбор: Django или FastAPI
 Example Request swagger documentation.
 
 <pre>
-<span class="key">/swagger/</span>
+<span class="key">http://127.0.0.1:8000/swagger/</span>
 </pre>
 
