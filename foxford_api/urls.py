@@ -20,8 +20,11 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from foxford_api import settings
 from rest_framework import routers
-from course.views import StudentProfileViewSet, TeacherProfileViewSet,\
-    WebinarViewSet, CourseProfileViewSet, SalaryViewSet
+from course.views import CourseProfileViewSet
+from student.views import StudentProfileViewSet
+from teacher.views import TeacherProfileViewSet
+from teacher_salary.views import SalaryViewSet
+from webinar.views import WebinarViewSet
 from .yasg import urlpatterns as doc_urls
 
 

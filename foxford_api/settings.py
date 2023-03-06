@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'drf_yasg',
     'course',
+    'student',
+    'teacher',
+    'webinar',
+    'teacher_salary',
     'pytz',
 
 ]
