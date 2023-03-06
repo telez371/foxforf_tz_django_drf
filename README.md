@@ -28,6 +28,10 @@ Framework на выбор: Django или FastAPI
 
 ## Документация
 
+<pre>
+<span class="key">установить Requirements.txt</span>
+</pre>
+
 
 Прописать свои параметры PostgreSQL в DATABASES
 
